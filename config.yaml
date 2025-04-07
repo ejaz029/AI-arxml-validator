@@ -1,0 +1,9 @@
+GROQ_API_KEY: "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"
+AI_MODEL: "mixtral-8x7b"
+UPLOAD_FOLDER: "uploads"
+ALLOWED_EXTENSIONS: ["arxml"]
+ENABLE_RAG_VALIDATION: true
+ENABLE_SCHEMA_CHECK: true
+ENABLE_CONSISTENCY_CHECKS: true
+DEPLOYMENT_ENV: "local"
+log_file: "logs/app.log"

@@ -1,0 +1,29 @@
+# Core Frameworks & APIs
+streamlit
+fastapi
+uvicorn
+
+# XML Processing
+xmlschema
+lxml
+
+# AI & Machine Learning
+langchain
+langraph
+openai
+transformers
+sentence-transformers
+gensim
+numpy
+pandas
+scikit-learn
+tensorflow
+
+# Testing
+pytest
+unittest
+
+
+
+
+
