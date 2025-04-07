@@ -1,0 +1,21 @@
+<AUTOSAR>
+    <AR-PACKAGES>
+        <AR-PACKAGE UUID="123e4567-e89b-12d3-a456-426614174000">
+            <SHORT-NAME>ExamplePackage</SHORT-NAME>
+            <ELEMENTS>
+                <SW-COMPONENT-PROTOTYPE UUID="123e4567-e89b-12d3-a456-426614174000">
+                    <SHORT-NAME>InvalidSWC1@!</SHORT-NAME>
+                    <REFERENCE-TARGET>/ExamplePackage/NonExistentSWC</REFERENCE-TARGET>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE UUID="223e4567-e89b-12d3-a456-426614174111">
+                    <SHORT-NAME>Invalid PDU Name</SHORT-NAME>
+                    <REFERENCE-TARGET>/ExamplePackage/SWC3</REFERENCE-TARGET>
+                </SW-COMPONENT-PROTOTYPE>
+                <SW-COMPONENT-PROTOTYPE UUID="123e4567-e89b-12d3-a456-426614174000">  <!-- Duplicate UUID -->
+                    <SHORT-NAME>DuplicateSWC</SHORT-NAME>
+                    <REFERENCE-TARGET>/ExamplePackage/SWC1</REFERENCE-TARGET>
+                </SW-COMPONENT-PROTOTYPE>
+            </ELEMENTS>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>

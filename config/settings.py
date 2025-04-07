@@ -1,4 +1,6 @@
 import os
+from dotenv import load_dotenv
+load_dotenv()
 from langchain_groq import ChatGroq
 
 class Config:
@@ -18,7 +20,7 @@ class Config:
     ENABLE_CONSISTENCY_CHECKS = True
 
     # ✅ Load Groq API Key (from YAML or directly here)
-    GROQ_API_KEY = "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"  # Replace with your real key or load from config.yaml
+    GROQ_API_KEY = os.getenv('GROQ_API_KEY')  # Replace with your real key or load from config.yaml
 
     # ✅ Deployment
     DEPLOYMENT_ENV = "local"

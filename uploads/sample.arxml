@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+    <AR-PACKAGES>
+        <AR-PACKAGE>
+            <SHORT-NAME>ExamplePackage</SHORT-NAME>
+            <ELEMENTS>
+                <!-- Software Component 1 -->
+                <APPLICATION-SOFTWARE-COMPONENT-TYPE>
+                    <SHORT-NAME>SWC1</SHORT-NAME>
+                    <UUID>123e4567-e89b-12d3-a456-426614174000</UUID>
+                </APPLICATION-SOFTWARE-COMPONENT-TYPE>
+
+                <!-- Software Component 2 -->
+                <APPLICATION-SOFTWARE-COMPONENT-TYPE>
+                    <SHORT-NAME>SWC2</SHORT-NAME>
+                    <UUID>123e4567-e89b-12d3-a456-426614174000</UUID> <!-- Duplicate UUID -->
+                </APPLICATION-SOFTWARE-COMPONENT-TYPE>
+
+                <!-- Composition -->
+                <COMPOSITION-SW-COMPONENT-TYPE>
+                    <SHORT-NAME>Composition1</SHORT-NAME>
+                    <COMPONENTS>
+                        <APPLICATION-SOFTWARE-COMPONENT-REF DEST="APPLICATION-SOFTWARE-COMPONENT-TYPE">/ExamplePackage/SWC1</APPLICATION-SOFTWARE-COMPONENT-REF>
+                        <APPLICATION-SOFTWARE-COMPONENT-REF DEST="APPLICATION-SOFTWARE-COMPONENT-TYPE">/ExamplePackage/SWC3</APPLICATION-SOFTWARE-COMPONENT-REF> <!-- Missing Reference -->
+                    </COMPONENTS>
+                </COMPOSITION-SW-COMPONENT-TYPE>
+
+                <!-- Missing Required Attribute -->
+                <APPLICATION-SOFTWARE-COMPONENT-TYPE>
+                    <UUID>123e4567-e89b-12d3-a456-426614174001</UUID>
+                    <!-- Missing SHORT-NAME -->
+                </APPLICATION-SOFTWARE-COMPONENT-TYPE>
+            </ELEMENTS>
+        </AR-PACKAGE>
+    </AR-PACKAGES>
+</AUTOSAR>
