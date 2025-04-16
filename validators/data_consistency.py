@@ -48,7 +48,7 @@ def validate_referenced_elements(root):
 # ✅ Fix: Define validate_data function
 def validate_data(root):
     """Runs all validation checks on the ARXML file."""
-    required_attributes = ["UUID", "ID"]
+    required_attributes = ["UUID", "  ID"]
     errors = []
     errors.extend(validate_uuid_uniqueness(root))
     errors.extend(validate_required_attributes(root, required_attributes))

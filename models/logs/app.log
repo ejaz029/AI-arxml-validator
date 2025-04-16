@@ -1,0 +1,33 @@
+2025-04-04 20:10:34,092 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:10:34,092 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:10:42,085 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2025-04-04 20:10:42,405 - faiss.loader - INFO - Successfully loaded faiss with AVX2 support.
+2025-04-04 20:10:42,418 - faiss - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-04-04 20:10:42,811 - tensorflow - WARNING - From D:\arxml\AUTOSAR_ARXML_Validator (MAIN)\venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-04-04 20:14:26,951 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:14:26,951 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:16:15,337 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:16:15,338 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:17:32,351 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:17:32,351 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:21:18,164 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:21:18,164 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:25:13,579 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:25:13,579 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:33:10,138 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:33:10,138 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:35:22,912 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:35:22,912 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:37:27,309 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:37:27,309 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:51:12,325 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:51:12,326 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:53:07,119 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:53:07,120 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 20:58:31,851 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 20:58:31,851 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 21:25:35,836 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 21:25:35,837 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-04-04 21:26:25,188 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-04 21:26:25,188 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2

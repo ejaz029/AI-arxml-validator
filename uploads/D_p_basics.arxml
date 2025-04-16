@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file was saved with a tool from Vector Informatik GmbH-->
+<AUTOSAR xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00048.xsd" xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AR-PACKAGES>
+    <AR-PACKAGE UUID="a6d3ea9731e031668c161933c19cb8d6">
+      <SHORT-NAME>SoftwareTypes</SHORT-NAME>
+      <AR-PACKAGES>
+        <AR-PACKAGE UUID="5a099a20b9943503bdbfb2d67e1094a4">
+          <SHORT-NAME>ComponentTypes</SHORT-NAME>
+          <ELEMENTS>
+            <APPLICATION-SW-COMPONENT-TYPE UUID="Na31609215dd026d88d5ed24XNa31609215dd026d88d5ed0600">
+              <SHORT-NAME>P_Basics</SHORT-NAME>
+              <ADMIN-DATA>
+                <SDGS>
+                  <SDG GID="DV_SDG">
+                    <SD GID="DV_ReadOnly">1</SD>
+                  </SDG>
+                </SDGS>
+              </ADMIN-DATA>
+              <PORTS>
+                <P-PORT-PROTOTYPE UUID="Na31609215dd026d88d5ed24xNa31609215dd026d88d60aaa00">
+                  <SHORT-NAME>EchoInterface</SHORT-NAME>
+                  <PROVIDED-COM-SPECS>
+                    <NONQUEUED-SENDER-COM-SPEC>
+                      <DATA-ELEMENT-REF DEST="VARIABLE-DATA-PROTOTYPE">/SoftwareTypes/Interfaces/EchoInterface/Echo</DATA-ELEMENT-REF>
+                    </NONQUEUED-SENDER-COM-SPEC>
+                  </PROVIDED-COM-SPECS>
+                  <PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SoftwareTypes/Interfaces/EchoInterface</PROVIDED-INTERFACE-TREF>
+                </P-PORT-PROTOTYPE>
+              </PORTS>
+              <INTERNAL-BEHAVIORS>
+                <SWC-INTERNAL-BEHAVIOR UUID="Na31609215dd026d88d5ed24xNa31495315ec7cb00d41c84100">
+                  <SHORT-NAME>P_Basics_ib</SHORT-NAME>
+                  <DATA-TYPE-MAPPING-REFS>
+                    <DATA-TYPE-MAPPING-REF DEST="DATA-TYPE-MAPPING-SET">/DataTypeMappingSets/Data_Type_Mappings</DATA-TYPE-MAPPING-REF>
+                  </DATA-TYPE-MAPPING-REFS>
+                </SWC-INTERNAL-BEHAVIOR>
+              </INTERNAL-BEHAVIORS>
+            </APPLICATION-SW-COMPONENT-TYPE>
+          </ELEMENTS>
+        </AR-PACKAGE>
+      </AR-PACKAGES>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
