@@ -11,6 +11,7 @@ lxml
 langchain
 langraph
 openai
+groq
 transformers
 sentence-transformers
 gensim
@@ -18,6 +19,7 @@ numpy
 pandas
 scikit-learn
 tensorflow
+pytorch 
 
 # Testing
 pytest
@@ -27,3 +29,5 @@ unittest
 
 
 
+# to activate venv :  venv\Scripts\activate
+# to run chatbot in streamlit :  streamlit run "D:\arxml\AUTOSAR_ARXML_Validator (MAIN)\app\main.py

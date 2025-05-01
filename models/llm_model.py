@@ -1,5 +1,5 @@
 import os
-from langchain_core.chat_models import ChatGroq  # Import Groq Chat Model
+from langchain_groq import ChatGroq  # Import Groq Chat Model
 
 class LLMModel:
     def __init__(self, model_name="llama3-70b", temperature=0.1):

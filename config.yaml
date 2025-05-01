@@ -1,4 +1,4 @@
-GROQ_API_KEY: "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"
+GROQ_API_KEY: "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"
 AI_MODEL: "mixtral-8x7b"
 UPLOAD_FOLDER: "uploads"
 ALLOWED_EXTENSIONS: ["arxml"]
