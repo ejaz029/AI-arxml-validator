@@ -25,9 +25,11 @@ pytorch
 pytest
 unittest
 
+#python
+python --version : python 3.11.6
 
 
 
 
 # to activate venv :  venv\Scripts\activate
-# to run chatbot in streamlit :  streamlit run "D:\arxml\AUTOSAR_ARXML_Validator (MAIN)\app\main.py
+# to run chatbot in streamlit :  streamlit run "D:\arxml\AUTOSAR_ARXML_Validator (MAIN)\app\main.py"

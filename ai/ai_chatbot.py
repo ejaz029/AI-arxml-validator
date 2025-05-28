@@ -64,10 +64,10 @@ def chatbot_interface(upload_dir="uploads"):
     selected_path = os.path.join(upload_dir, selected_file)
     st.success(f"✅ Using preloaded file: {selected_file}")
 
-    # Optional preview
-    with st.expander("📖 Preview selected file content"):
-        content = load_arxml_file(selected_path)
-        st.text_area("🧾 ARXML Content", content, height=300)
+    # # Optional preview
+    # with st.expander("📖 Preview selected file content"):
+    #     content = load_arxml_file(selected_path)
+    #     st.text_area("🧾 ARXML Content", content, height=300)
 
     # Ask user for input
     st.markdown("### 🔍 Ask a question about the ARXML file:")

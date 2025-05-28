@@ -1,4 +1,4 @@
-from langchain.embeddings import HuggingFaceEmbeddings  # Free embeddings
+from langchain_huggingface import HuggingFaceEmbeddings  # Free embeddings
 from langchain.vectorstores import FAISS
 
 class EmbeddingModel:
