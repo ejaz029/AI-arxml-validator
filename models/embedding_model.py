@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Ejaz Belgaum
+# Licensed under the MIT License (see LICENSE file for details).
+
 from langchain_huggingface import HuggingFaceEmbeddings  # Free embeddings
 from langchain.vectorstores import FAISS
 
