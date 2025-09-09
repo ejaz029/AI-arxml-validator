@@ -1,4 +1,7 @@
-GROQ_API_KEY: "gsk_tNpJHJimnAwTu61sqogCWGdyb3FYkrJc4aodcppDqWu4Ud"
+# Copyright (c) 2025 Ejaz Belgaum
+# Licensed under the MIT License (see LICENSE file for details).
+
+GROQ_API_KEY: "your api key here"
 AI_MODEL: "mixtral-8x7b"
 UPLOAD_FOLDER: "uploads"
 ALLOWED_EXTENSIONS: ["arxml"]
