@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Ejaz Belgaum
+# Licensed under the MIT License (see LICENSE file for details).
 import xml.etree.ElementTree as ET
 import os
 
