@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Ejaz Belgaum
+# Licensed under the MIT License (see LICENSE file for details).
+
 import os
 from langchain_groq import ChatGroq  # Import Groq Chat Model
 
