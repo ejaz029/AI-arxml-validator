@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Ejaz Belgaum
+# Licensed under the MIT License (see LICENSE file for details).
+
 import numpy as np
 from sklearn.ensemble import IsolationForest
 from sentence_transformers import SentenceTransformer
