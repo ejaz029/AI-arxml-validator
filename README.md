@@ -72,8 +72,8 @@ Each validator is implemented as a separate Python module for clarity and scalab
 - [ ] Expanded AI reasoning for inter-node relationships
 
 ## 🙌 Contributors
-- [Ejaz] – AI Integration, Project Lead
-- [Teammate(not_yet)] – ARXML Parsing, Validation Logic
+- [Ejaz] – AI Integration
+- ARXML Parsing, Validation Logic
 
 ## 📄 License
 MIT License
