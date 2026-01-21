@@ -75,6 +75,12 @@ Each validator is implemented as a separate Python module for clarity and scalab
 - [Ejaz] – AI Integration
 - ARXML Parsing, Validation Logic
 
+- ## Project Ownership
+
+This repository is solely developed and maintained by **Ejaz Belgaum (GitHub: ejaz029)**.  
+No external contributors have participated in the development of this project.
+
+
 ## 📄 License
 MIT License
 
